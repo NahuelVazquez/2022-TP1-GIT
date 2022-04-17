@@ -1,0 +1,11 @@
+{
+  "name": "grupo3",
+  "version": "1.0.0",
+  "description": "tp1-G3 proyecto de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "los frigolinas",
+  "license": "ISC"
+}
