@@ -1,14 +1,15 @@
-var http = require("http")
+var http = require('http');
+var url = require('url');
 
-http.createServer(function (request, response) {
-    // Send the HTTP header 
-    // HTTP Status: 200 : OK
-    // Content Type: text/plain
-    response.writeHead(200, {'Content-Type': 'text/plain'});
-    
-    // Send the response body as "Hello World"
-    response.end('Hello World\n');
- }).listen(8081);
- 
- // Console will print the message
- console.log('Server running at http://127.0.0.1:8081/');
+var server = http.createServer((req, res) => {
+   var queryObj = url.parse(req.url, true).query;
+   res.writeHead(200, {
+       'Content-Type': 'text/html; charset=UTF8'
+   })
+   var name = queryObj.name;
+   var age = queryObj.age;
+   var sex = queryObj.sex;
+   res.write(`El servidor aceptó el envío. Su nombre es: ${name}, edad: ${age}, sexo: ${sex}`);
+   res.end();
+})
+server.listen(8081, '127.0.0.1');
