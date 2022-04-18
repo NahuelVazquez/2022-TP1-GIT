@@ -10,4 +10,6 @@ const number2 = prompt('Insert your second number')
 
 document.getElementById('sum-label').innerHTML += `${number} + ${number2} = ${Number(number) + Number(number2)}`
 
+document.getElementById('sus-label').innerHTML += `${number} - ${number2} = ${Number(number) - Number(number2)}`
+
 }())
