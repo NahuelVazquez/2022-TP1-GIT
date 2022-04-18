@@ -24,13 +24,13 @@
  <script>  
  function myFunction() {  
    var x,y,suma,text;  
-   x = document.getElementById("num1").value;  
-   y = document.getElementById("num2").value;  
-   if (isNaN(x) || isNaN(y)) {  
+   a = document.getElementById("num1").value;  
+   b = document.getElementById("num2").value;  
+   if (isNaN(a) || isNaN(b)) {  
      text = "Es necesarios introducir dos números válidos";  
    } else {  
      //si no ponemos parseFloat concatenaría x con y  
-     suma=parseFloat(x)+parseFloat(y);  
+     suma=parseFloat(a)+parseFloat(b);  
      text= suma;  
    }  
    document.getElementById("sumando").innerHTML = text;  
