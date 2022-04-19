@@ -1,14 +1,13 @@
 const express = require('express')
-const square  = require('./function')
+const square  = require('./functions/square')
 const app = express()
 const port = 3000
 
 app.use(express.json())
-
+app.set("view engine","ejs")
 app.get('/', (req, res) => {
-  let n = 3
-  const resp = `El cuadrado de ${n} es: ` + JSON.stringify(square(n))
-  res.send(resp)
+  res.render("index",{square: square(3)})
+
 })
 
 app.listen(port, () => {
