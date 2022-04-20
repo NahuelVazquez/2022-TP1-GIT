@@ -1,0 +1,80 @@
+[33mcommit 412b53fd11d372dff28035abd31c5fc3db52d950[m[33m ([m[1;36mHEAD -> [m[1;32mG2/principal[m[33m, [m[1;31morigin/G2/principal[m[33m, [m[1;32mG2VG[m[33m)[m
+Merge: bc35c7b 8301e89
+Author: Juan Lucas Biain <juanlucasbiain@gmail.com>
+Date:   Mon Apr 18 18:44:20 2022 -0300
+
+    solucion del conflicto
+
+[33mcommit 8301e89fe4064a7c6aa980b3d873619a47a0a1cd[m
+Merge: f902de4 54bc053
+Author: GuidoStangaferro97 <guidostangaferro@gmail.com>
+Date:   Mon Apr 18 18:19:23 2022 -0300
+
+    Merge branch 'G2GS' into G2/principal
+    Merge de G2GS hacia G2/principal
+
+[33mcommit 54bc053384e71601ecd4eaf1af4bd1061524bbbd[m[33m ([m[1;31morigin/G2GS[m[33m)[m
+Author: GuidoStangaferro97 <guidostangaferro@gmail.com>
+Date:   Mon Apr 18 18:13:14 2022 -0300
+
+    variable suma ahora es sum
+
+[33mcommit bc35c7b0959b73a84f03fba8aa0f3517fdbec250[m[33m ([m[1;31morigin/G2JL[m[33m)[m
+Author: Juan Lucas Biain <juanlucasbiain@gmail.com>
+Date:   Mon Apr 18 18:08:48 2022 -0300
+
+    var a y b definidas
+
+[33mcommit 80f9c9bb6f745d9af7e8097a554c636c3d7d0c06[m
+Author: Juan Lucas Biain <juanlucasbiain@gmail.com>
+Date:   Mon Apr 18 18:01:48 2022 -0300
+
+    funcion modificada x->a y->b
+
+[33mcommit f902de46abc26ffe04560e448c196b5f32595d19[m
+Merge: bddbf9a 35b4749
+Author: Guido Leonardo Stangaferro <44417193+GuidoStangaferro97@users.noreply.github.com>
+Date:   Mon Apr 18 16:48:37 2022 -0300
+
+    Merge pull request #8 from FRRe-DACS/G2GS
+    
+    Agregue la Función Suma
+
+[33mcommit 35b474915475f01f531a20b3b534aaf1e5e2610c[m
+Author: GuidoStangaferro97 <guidostangaferro@gmail.com>
+Date:   Mon Apr 18 16:38:31 2022 -0300
+
+    Funcion suma
+
+[33mcommit bddbf9aa5ee7f94f6c1871b65dd9a41fc9d7ed97[m
+Merge: 41e36c9 9e2b1f3
+Author: Juan Lucas Biain <83670753+Juanluucas@users.noreply.github.com>
+Date:   Sun Apr 17 19:37:13 2022 -0300
+
+    Merge pull request #3 from Juanluucas/G2/principal
+    
+    Actividad 3. 3- Completada
+
+[33mcommit 9e2b1f30853e2540282c1880d8dc4734f673fe8d[m
+Author: juanluucas <juanluucas@pop-os.localdomain>
+Date:   Sun Apr 17 19:24:33 2022 -0300
+
+    ejercicio de label
+
+[33mcommit 41e36c98f615b7ef6bac4ca1a421cb68b9b11e5d[m
+Author: GuidoStangaferro97 <guidostangaferro@gmail.com>
+Date:   Sun Apr 17 16:56:33 2022 -0300
+
+    Node js Hola Mundo
+
+[33mcommit 901f51a9a6932b914c1d3351536e2c2e61082a6c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31morigin/G2VG[m[33m)[m
+Author: Fabricio Quevedo <37479229+fabque@users.noreply.github.com>
+Date:   Tue Apr 12 22:53:39 2022 -0300
+
+    link a enunciado
+
+[33mcommit c95fbcee8a959d72a902352704960be35a9b513f[m
+Author: Fabricio Quevedo <37479229+fabque@users.noreply.github.com>
+Date:   Tue Apr 12 22:50:17 2022 -0300
+
+    Initial commit
