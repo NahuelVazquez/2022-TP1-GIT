@@ -20,19 +20,21 @@
    <h1>Sumar dos números</h1>  
  <p>Por favor, introduce dos números:</p>  
  <input id="num1"><br>  
- <input id="num2">  
+ <input id="num2">
+ <input id="num3">  
  <button type="button" onclick="myFunction()">Sumar</button>  
  <p id="sumando"></p>  
  <script>  
  function myFunction() {  
    var a,b,suma,text;  
    a = document.getElementById("num1").value;  
-   b = document.getElementById("num2").value;  
-   if (isNaN(a) || isNaN(b)) {  
+   b = document.getElementById("num2").value; 
+   c = document.getElementById("num3").value;  
+   if (isNaN(a) || isNaN(b) || isNaN(c)) {  
      text = "Es necesarios introducir dos números válidos";  
    } else {  
      //si no ponemos parseFloat concatenaría x con y  
-     suma=parseFloat(a)+parseFloat(b);  
+     suma=parseFloat(a)+parseFloat(b)+parseFloat(c);  
      text= suma;  
    }  
    document.getElementById("sumando").innerHTML = text;  
