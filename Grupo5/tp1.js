@@ -6,7 +6,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'});
    // Send the response body as "Hello World"
 <<<<<<< HEAD
-   response.end('Hell World, Matias :)\n');
+   response.end('Hell World, Matias y Joel :P :)\n');
 =======
    response.end('Hellow World, soy Lu :)\n');
 >>>>>>> parent of 356a2d5 (cambiando hello world)
