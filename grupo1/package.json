@@ -4,7 +4,8 @@
   "description": "Grupo 1 - Aplicaciones Cliente Servidor - TP1 2022",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "comenzar": "node src/app.js"
   },
   "author": "Grupo 1 - Jorge",
   "license": "ISC",
