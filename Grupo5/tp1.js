@@ -4,14 +4,10 @@ http.createServer(function (request, response) {
    // HTTP Status: 200 : OK
    // Content Type: text/plain
    response.writeHead(200, {'Content-Type': 'text/plain'});
-   // Send the response body as "Hello World"
-<<<<<<< HEAD
-   response.end('Hell World, Matias :)\n');
+   // Send the response body as "Hello World
+   response.end('Hell World, Matias y Joel :P :)\n');
    response.end('Hell World, Juliana:)\n');
-
-=======
    response.end('Hellow World, soy Lu :)\n');
->>>>>>> parent of 356a2d5 (cambiando hello world)
 }).listen(8081);
 // Console will print the message
 console.log('Server running at http://127.0.0.1:8081/%27');
