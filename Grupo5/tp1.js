@@ -13,3 +13,11 @@ http.createServer(function (request, response) {
 }).listen(8081);
 // Console will print the message
 console.log('Server running at http://127.0.0.1:8081/%27');
+
+function division(x,y){
+	if (y==0){
+console.log('No divisible por cero');
+} else {
+	return x/y;
+}
+}
