@@ -21,3 +21,7 @@ console.log('No divisible por cero');
 	return x/y;
 }
 }
+
+function suma(x,y){
+	return x+y;
+}
