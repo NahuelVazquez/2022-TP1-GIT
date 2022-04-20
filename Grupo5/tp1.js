@@ -29,3 +29,7 @@ function suma(x,y){
 function resta(x,y){
 	return x-y;
 }
+
+function cuadrado(x){
+	return x*x;
+}
